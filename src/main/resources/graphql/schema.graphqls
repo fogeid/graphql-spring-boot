@@ -1,5 +1,5 @@
-type: Person {
-    id: ID,
+type Person {
+    id: ID!,
     name: String,
     age: Int,
     gender: Gender
@@ -21,5 +21,5 @@ type Query {
 }
 
 type Mutation {
-    savePerson(person, PersonInput): Person
+    savePerson(person: PersonInput): Person
 }

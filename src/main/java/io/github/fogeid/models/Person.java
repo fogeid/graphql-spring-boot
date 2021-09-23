@@ -1,4 +1,4 @@
-package io.github.fogeid.graphqlspringboot.models;
+package io.github.fogeid.models;
 
 import javax.persistence.*;
 
@@ -12,15 +12,15 @@ public class Person {
     private Integer age;
 
     @Enumerated(value = EnumType.STRING)
-    private Gender gender;
+    private Gender gener;
 
     public Person() {
     }
 
-    public Person(String name, Integer age, Gender gender) {
+    public Person(String name, Integer age, Gender gener) {
         this.name = name;
         this.age = age;
-        this.gender = gender;
+        this.gener = gener;
     }
 
     public Long getId() {
@@ -35,7 +35,7 @@ public class Person {
         return age;
     }
 
-    public Gender getGender() {
-        return gender;
+    public Gender getGener() {
+        return gener;
     }
 }

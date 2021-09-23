@@ -1,4 +1,4 @@
-package io.github.fogeid.graphqlspringboot;
+package io.github.fogeid;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

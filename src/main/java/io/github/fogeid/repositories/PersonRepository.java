@@ -1,6 +1,6 @@
-package io.github.fogeid.graphqlspringboot.repositories;
+package io.github.fogeid.repositories;
 
-import io.github.fogeid.graphqlspringboot.models.Person;
+import io.github.fogeid.models.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
