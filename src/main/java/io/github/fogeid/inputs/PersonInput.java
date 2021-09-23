@@ -10,7 +10,7 @@ public class PersonInput implements GraphQLInputType {
 
     @Override
     public String getName() {
-        return null;
+        return name;
     }
 
     public Integer getAge() {

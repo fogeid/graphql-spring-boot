@@ -12,15 +12,15 @@ public class Person {
     private Integer age;
 
     @Enumerated(value = EnumType.STRING)
-    private Gender gener;
+    private Gender gender;
 
     public Person() {
     }
 
-    public Person(String name, Integer age, Gender gener) {
+    public Person(String name, Integer age, Gender gender) {
         this.name = name;
         this.age = age;
-        this.gener = gener;
+        this.gender = gender;
     }
 
     public Long getId() {
@@ -35,7 +35,7 @@ public class Person {
         return age;
     }
 
-    public Gender getGener() {
-        return gener;
+    public Gender getGender() {
+        return gender;
     }
 }
